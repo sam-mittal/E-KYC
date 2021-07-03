@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/E-KYC/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/E-KYC/static/js/main.8b63f604.chunk.js",
-    "main.js.map": "/E-KYC/static/js/main.8b63f604.chunk.js.map",
+    "main.js": "/E-KYC/static/js/main.7ff98426.chunk.js",
+    "main.js.map": "/E-KYC/static/js/main.7ff98426.chunk.js.map",
     "runtime-main.js": "/E-KYC/static/js/runtime-main.03628ff2.js",
     "runtime-main.js.map": "/E-KYC/static/js/runtime-main.03628ff2.js.map",
     "static/js/2.923727fd.chunk.js": "/E-KYC/static/js/2.923727fd.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.03628ff2.js",
     "static/js/2.923727fd.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.8b63f604.chunk.js"
+    "static/js/main.7ff98426.chunk.js"
   ]
 }
