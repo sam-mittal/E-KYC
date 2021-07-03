@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/E-KYC/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/E-KYC/static/js/main.8087cdb1.chunk.js",
+    "main.js.map": "/E-KYC/static/js/main.8087cdb1.chunk.js.map",
+    "runtime-main.js": "/E-KYC/static/js/runtime-main.03628ff2.js",
+    "runtime-main.js.map": "/E-KYC/static/js/runtime-main.03628ff2.js.map",
+    "static/js/2.56deb24a.chunk.js": "/E-KYC/static/js/2.56deb24a.chunk.js",
+    "static/js/2.56deb24a.chunk.js.map": "/E-KYC/static/js/2.56deb24a.chunk.js.map",
+    "static/js/3.387ea4dc.chunk.js": "/E-KYC/static/js/3.387ea4dc.chunk.js",
+    "static/js/3.387ea4dc.chunk.js.map": "/E-KYC/static/js/3.387ea4dc.chunk.js.map",
+    "index.html": "/E-KYC/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/E-KYC/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.56deb24a.chunk.js.LICENSE.txt": "/E-KYC/static/js/2.56deb24a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03628ff2.js",
+    "static/js/2.56deb24a.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.8087cdb1.chunk.js"
+  ]
+}
