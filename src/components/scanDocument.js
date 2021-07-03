@@ -1,10 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
 // import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Webcam from "react-webcam";
@@ -22,7 +17,18 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
     button: {
         marginTop: theme.spacing(3),
-        marginLeft: theme.spacing(18),
+        marginLeft: 36 + '%',
+      },
+      button1: {
+        marginTop: theme.spacing(1),
+        marginLeft: 30 + '%',
+      },
+      or: {
+        marginTop: theme.spacing(1),
+        marginLeft: 46 + '%',
+      },
+      input: {
+        display: 'none',
       },
 }));
 
@@ -35,7 +41,7 @@ export default function ScanID() {
     const videoConstraints = {
         width: 1280,
         height: 720,
-        facingMode: "user"
+        facingMode: "environment"
     };
     const [imgSrc, setImgSrc] = React.useState(null);
     const webcamRef = React.useRef(null);
@@ -79,7 +85,7 @@ export default function ScanID() {
         height={210}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
-        width={420}
+        width={100 + '%'}
         videoConstraints={videoConstraints}
       />
       <Button
@@ -90,6 +96,26 @@ export default function ScanID() {
         >
          Take Photo
       </Button>
+      <Typography  className={classes.or}>
+        OR
+      </Typography>
+      <input
+        accept="image/*"
+        className={classes.input}
+        id="contained-button-file"
+        type="file"
+      />
+      <label htmlFor="contained-button-file">
+        <Button
+            variant="contained"
+            color="secondary"
+            component="span"
+            className={classes.button1}
+            >
+            Upload From Device
+        </Button>
+      </label>
+      
       </>
     }
         {/* <Grid item xs={12}>

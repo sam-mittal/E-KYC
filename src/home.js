@@ -5,15 +5,16 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 // import TextField from '@material-ui/core/TextField';
 // import FormControlLabel from '@material-ui/core/FormControlLabel';
 // import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+// import Router from 'react-router';
 // import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom';
 import Box from '@material-ui/core/Box';
 import ContactsIcon from '@material-ui/icons/Contacts';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import QRCode from "qrcode.react";
-
+// var Link = Router.Link;
 
 function Copyright() {
   return (
@@ -66,12 +67,12 @@ export default function SignIn() {
           Scan the qr code to start KYC from your mobile (for better camera)
         </Typography>
         <div className={classes.qr}>
-        <QRCode value={window.location.href + "/kyc"} />
+        <QRCode value={window.location.href + "kyc"} />
         </div>
         <Typography component="h1" variant="h5" align="center">
           OR
         </Typography>
-          <a href="/kyc">
+          <Link to="/kyc">
           <Button
             type="submit"
             fullWidth
@@ -81,7 +82,7 @@ export default function SignIn() {
           >
             Continue on same device
           </Button>
-          </a>
+          </Link>
       </div>
       <Box mt={8}>
         <Copyright />
